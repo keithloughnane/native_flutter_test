@@ -1,5 +1,18 @@
 import 'package:flutter/material.dart';
 
+//
+// @pragma('vm:entry-point') // say the release that this function must alos in the project used and it must not deleted
+// void myMainDartMethod() => runApp(MyApp()); // I use this function to show in the android activity  class MyApp extends StatelessWidget {
+// @override
+// Widget build(BuildContext context) {
+//   return MaterialApp(
+//     home: Scaffold(
+//       body: Container(height: 100, width: 100, color: Colors.red),
+//     ),
+//   );
+// }
+// }
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
+    <io.flutter.embedding.android.FlutterView
+        android:id="@+id/flutter_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
     <TextView
         android:id="@+id/textview_second"
         android:layout_width="wrap_content"
